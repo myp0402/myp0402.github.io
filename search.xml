@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>安装Python环境</title>
-    <url>/2022/05/31/%E5%AE%89%E8%A3%85Python%E7%8E%AF%E5%A2%83/</url>
-    <content><![CDATA[<h1 id="这是一个示例！"><a href="#这是一个示例！" class="headerlink" title="这是一个示例！"></a>这是一个示例！</h1>]]></content>
-      <tags>
-        <tag>教程</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/05/31/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -26,5 +17,208 @@
 </code></pre>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>markdown语法（转载自AceMark）</title>
+    <url>/2020/12/04/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="欢迎使用AceMark"><a href="#欢迎使用AceMark" class="headerlink" title="欢迎使用AceMark"></a>欢迎使用AceMark</h1><p>AceMark 致力于打造一款易用、专业的 Markdown 创作工具。</p>
+<h2 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown?"></a>什么是 Markdown?</h2><p>Markdown 是一种轻量级的标记语言。它允许人们使用易读易写的纯文本格式编写文档，并支持图片、图表、数学公式等，然后转换成有效的 HTML 文档。AceMark 采用 <a href="https://github.github.com/gfm/">GitHub Flavored Markdown</a> 语法（简称 GFM），并支持一些扩展语法。下面我们来熟悉下 AceMark 的常用标记说明。 </p>
+<p>为了方便导航，我们在这里插入目录：</p>
+<p>[toc]</p>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>AceMark 最高支持六级标题，一级标题在行首使用一个<code>#</code>，二级标题使用两个<code>##</code>，以此类推。如下：</p>
+<pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre>
+<h2 id="样式"><a href="#样式" class="headerlink" title="样式"></a>样式</h2><ul>
+<li><code>**粗体**</code>用于表示<strong>粗体</strong></li>
+<li><code>*斜体*</code>用于表示<em>斜体</em></li>
+<li><code>~~删除线~~</code>用于表示<del>删除线</del></li>
+</ul>
+<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>我们可以在这里插入一个脚注 <a href="%E8%BF%99%E6%98%AF%E8%84%9A%E6%B3%A8%E5%86%85%E5%AE%B9%E3%80%82">^footnote</a>。</p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><pre><code>&gt; 这是一个引用
+</code></pre>
+<p>效果：</p>
+<blockquote>
+<p>这是一个引用</p>
+</blockquote>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><pre><code>[链接标题](http://www.acemark.net)
+</code></pre>
+<p>输出：<a href="http://www.acemark.net/">链接标题</a></p>
+<p>如果想要显示一张网络图片，方式和普通链接类似，但需要在前面加一个<code>!</code>符号。</p>
+<pre><code>![图片标题](http://www.acemark.net/img/icon.jpg)
+</code></pre>
+<p><img src="http://www.acemark.net/img/icon.jpg" alt="图片标题" loading="lazy"></p>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>通过下面的标记，就可以输出一份表格</p>
+<pre><code>| 标题1 | 标题2 | 标题3 |
+|------|-------|------|
+| 内容1 | 内容2 | 内容3 |
+| 内容4 | 内容5 | 内容6 |
+</code></pre>
+<p>输出表格：</p>
+<table>
+<thead>
+<tr>
+<th>标题1</th>
+<th>标题2</th>
+<th>标题3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内容1</td>
+<td>内容2</td>
+<td>内容3</td>
+</tr>
+<tr>
+<td>内容4</td>
+<td>内容5</td>
+<td>内容6</td>
+</tr>
+</tbody></table>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><pre><code>1. 第一项
+2. 第二项
+</code></pre>
+<p>输出结果：</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p><code>+</code>、<code>*</code>、<code>-</code>都可以用来标识无序列表项。例如：</p>
+<pre><code>+ 项目1
+* 项目2
+- 项目3
+</code></pre>
+<p>输出结果：</p>
+<ul>
+<li>项目1</li>
+</ul>
+<ul>
+<li>项目2</li>
+</ul>
+<ul>
+<li>项目3</li>
+</ul>
+<h3 id="TODO-标记"><a href="#TODO-标记" class="headerlink" title="TODO 标记"></a>TODO 标记</h3><pre><code>- [ ] 未完成
+- [X] 已完成
+</code></pre>
+<p>输出结果：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 未完成</li>
+<li><input checked="" disabled="" type="checkbox"> 已完成</li>
+</ul>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>AceMark 支持几十种代码高亮。例如：</p>
+<h3 id="Go"><a href="#Go" class="headerlink" title="Go"></a>Go</h3><pre><code>```go
+func Fibonacci(n int) int &#123;
+    if n &lt;= 1 &#123;
+        return n
+    &#125;
+    return Fibonacci(n-1) + Fibonacci(n-2)
+&#125;
+```
+</code></pre>
+<p>输出：</p>
+<pre><code class="go">func Fibonacci(n int) int &#123;
+    if n &lt;= 1 &#123;
+        return n
+    &#125;
+    return Fibonacci(n-1) + Fibonacci(n-2)
+&#125;
+</code></pre>
+<h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h3><pre><code>```javascript
+function Fibonacci(num) &#123;
+    if (num &lt;= 1) return 1;
+    return Fibonacci(num - 1) + Fibonacci(num - 2);
+&#125;
+```
+</code></pre>
+<p>输出：</p>
+<pre><code class="javascript">function Fibonacci(num) &#123;
+    if (num &lt;= 1) return 1;
+    return Fibonacci(num - 1) + Fibonacci(num - 2);
+&#125;
+</code></pre>
+<h3 id="Lua"><a href="#Lua" class="headerlink" title="Lua"></a>Lua</h3><pre><code>```lua
+local function Fibonacci(n)
+    local function doFibonacci(n, ret1, ret2)
+        if (n &lt;= 1) then
+            return ret2
+        end
+        return doFibonacci(n - 1, ret2, ret1 + ret2)
+    end
+    return doFibonacci(n, 1, 1)
+end
+```
+</code></pre>
+<p>输出：</p>
+<pre><code class="lua">local function Fibonacci(n)
+    local function doFibonacci(n, ret1, ret2)
+        if (n &lt;= 1) then
+            return ret2
+        end
+        return doFibonacci(n - 1, ret2, ret1 + ret2)
+    end
+    return doFibonacci(n, 1, 1)
+end
+</code></pre>
+<h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><p>AceMark 支持 LaTeX 语法的数学公式。例如</p>
+<pre><code>$$
+f(x) = a x^2 + b x + c
+$$
+</code></pre>
+<p>会输出一个抛物线方程</p>
+<p>$$<br>f(x) &#x3D; a x^2 + b x + c<br>$$</p>
+<p>而下面这个表达式</p>
+<pre><code>$$
+F(\omega)=\int_&#123;-\infty&#125;^&#123;+\infty&#125; &#123;f(t)e^&#123;-i\omega t&#125;dt&#125;
+$$
+</code></pre>
+<p>会输出一个傅里叶变换积分方程</p>
+<p>$$<br>F(\omega)&#x3D;\int_{-\infty}^{+\infty} {f(t)e^{-i\omega t}dt}<br>$$</p>
+<p>要输出矩阵也很简单，只需要</p>
+<pre><code>$$
+\begin&#123;bmatrix&#125;
+1 &amp; x &amp; x^2 \\
+1 &amp; y &amp; y^2 \\
+1 &amp; z &amp; z^2 \\
+\end&#123;bmatrix&#125;
+$$
+</code></pre>
+<p>便可得到想要的效果</p>
+<p>$$<br>\begin{bmatrix}<br>1 &amp; x &amp; x^2 \<br>1 &amp; y &amp; y^2 \<br>1 &amp; z &amp; z^2 \<br>\end{bmatrix}<br>$$</p>
+<p>公式也可以显示在行内。例如 <code>$f(x)=kx+b$</code> 就会输出 $f(x)&#x3D;kx+b$，这是一个显示在行内的直线方程。</p>
+]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>Github</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如果博客异常，请阅读我</title>
+    <url>/2022/06/02/%E5%A6%82%E6%9E%9C%E5%8D%9A%E5%AE%A2%E5%BC%82%E5%B8%B8%EF%BC%8C%E8%AF%B7%E9%98%85%E8%AF%BB%E6%88%91/</url>
+    <content><![CDATA[<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="Q1-博客的背景为什么是白的？"><a href="#Q1-博客的背景为什么是白的？" class="headerlink" title="Q1: 博客的背景为什么是白的？"></a>Q1: 博客的背景为什么是白的？</h3><p>A1: 本博客图片由github托管，而直链地址raw.githubusercontent.com被墙了，所以你加载不出来</p>
+<h3 id="Q2-评论怎么使用？"><a href="#Q2-评论怎么使用？" class="headerlink" title="Q2: 评论怎么使用？"></a>Q2: 评论怎么使用？</h3><p>A2: 本博客使用utteranc作为评论系统，评论在文章的最下方，点击“Sign in with Github”，随后按流程登陆GitHub即可评论</p>
+<h3 id="Q3-点完“Sign-in-with-Github”为什么无法访问？"><a href="#Q3-点完“Sign-in-with-Github”为什么无法访问？" class="headerlink" title="Q3: 点完“Sign in with Github”为什么无法访问？"></a>Q3: 点完“Sign in with Github”为什么无法访问？</h3><p>A3: 部分地区的Github会不定时无法访问，撞大运吧</p>
+<h3 id="Q4-有没有彻底解决Q1和Q3的方法？"><a href="#Q4-有没有彻底解决Q1和Q3的方法？" class="headerlink" title="Q4: 有没有彻底解决Q1和Q3的方法？"></a>Q4: 有没有彻底解决Q1和Q3的方法？</h3><p>A4: 我不能教你，自己动手丰衣足食</p>
+<h3 id="Q5-我还有问题怎么办"><a href="#Q5-我还有问题怎么办" class="headerlink" title="Q5: 我还有问题怎么办"></a>Q5: 我还有问题怎么办</h3><p>A5: 在本篇文章底下评论吧，再见👋</p>
+<h3 id="Q6-别走啊，我登录不了GitHub咋评论啊啊啊"><a href="#Q6-别走啊，我登录不了GitHub咋评论啊啊啊" class="headerlink" title="Q6: 别走啊，我登录不了GitHub咋评论啊啊啊"></a>Q6: 别走啊，我登录不了GitHub咋评论啊啊啊</h3><p>A6: 给我发邮件吧，侧边栏的邮件图标直接点</p>
+]]></content>
+      <tags>
+        <tag>Github</tag>
+        <tag>博客</tag>
+        <tag>GFW</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装Python环境</title>
+    <url>/2022/05/31/%E5%AE%89%E8%A3%85Python%E7%8E%AF%E5%A2%83/</url>
+    <content><![CDATA[<h1 id="这是一个示例！"><a href="#这是一个示例！" class="headerlink" title="这是一个示例！"></a>这是一个示例！</h1>]]></content>
+      <tags>
+        <tag>教程</tag>
+        <tag>Python</tag>
+      </tags>
   </entry>
 </search>

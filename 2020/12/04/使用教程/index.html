@@ -1,0 +1,259 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#808000"><meta name="author" content="Ma Yuanpeng"><meta name="copyright" content="Ma Yuanpeng"><meta name="generator" content="Hexo 6.2.0"><meta name="theme" content="hexo-theme-yun"><title>markdown语法（转载自AceMark） | mypの小窝</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.3.3/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/@unocss/runtime/mini.global.js"></script><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/png" href="/favicon.ico"><link rel="mask-icon" href="/favicon.ico" color="#808000"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"myp0402.github.io","root":"/","title":["myp","の","小","窝"],"version":"1.10.2","mode":"light","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"local_search":{"path":"/search.xml"},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="mypの小窝" type="application/atom+xml"><meta name="description" content="欢迎使用AceMarkAceMark 致力于打造一款易用、专业的 Markdown 创作工具。 什么是 Markdown?Markdown 是一种轻量级的标记语言。它允许人们使用易读易写的纯文本格式编写文档，并支持图片、图表、数学公式等，然后转换成有效的 HTML 文档。AceMark 采用 GitHub Flavored Markdown 语法（简称 GFM），并支持一些扩展语法。下面我们来熟悉">
+<meta property="og:type" content="article">
+<meta property="og:title" content="markdown语法（转载自AceMark）">
+<meta property="og:url" content="https://myp0402.github.io/2020/12/04/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="mypの小窝">
+<meta property="og:description" content="欢迎使用AceMarkAceMark 致力于打造一款易用、专业的 Markdown 创作工具。 什么是 Markdown?Markdown 是一种轻量级的标记语言。它允许人们使用易读易写的纯文本格式编写文档，并支持图片、图表、数学公式等，然后转换成有效的 HTML 文档。AceMark 采用 GitHub Flavored Markdown 语法（简称 GFM），并支持一些扩展语法。下面我们来熟悉">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://www.acemark.net/img/icon.jpg">
+<meta property="article:published_time" content="2020-12-04T01:29:11.000Z">
+<meta property="article:modified_time" content="2022-06-06T08:15:52.771Z">
+<meta property="article:author" content="Ma Yuanpeng">
+<meta property="article:tag" content="markdown">
+<meta property="article:tag" content="Github">
+<meta property="article:tag" content="博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://www.acemark.net/img/icon.jpg"><script>(function() {
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info mickey-mouse"><a class="site-author-avatar" href="/about/" title="Ma Yuanpeng"><img width="96" loading="lazy" src="/images/avatar.jpg" alt="Ma Yuanpeng"><span class="site-author-status" title="（大雾">🫥</span></a><div class="site-author-name"><a href="/about/">Ma Yuanpeng</a></div><a class="site-name" href="/about/site.html">mypの小窝</a><sub class="site-subtitle">上帝保佑emoji正常显示</sub><div class="site-description">一只初二学生的博客</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">4</span></a></div><div class="site-state-item"><a href="/404.html"><span class="site-state-item-icon"><span class="icon iconify" data-icon="tabler:error-404"></span></span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">6</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://yun.yunyoujun.cn" title="文档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:settings-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/myp0402" title="GitHub" target="_blank" style="color:#181717"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:mayuanpeng0402@126.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/452052550" title="哔哩哔哩动画" target="_blank" style="color:#FF8EB3"><span class="icon iconify" data-icon="ri:bilibili-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的食物们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8AceMark"><span class="toc-number">1.</span> <span class="toc-text">欢迎使用AceMark</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-Markdown"><span class="toc-number">1.1.</span> <span class="toc-text">什么是 Markdown?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E9%A2%98"><span class="toc-number">1.2.</span> <span class="toc-text">标题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%B7%E5%BC%8F"><span class="toc-number">1.3.</span> <span class="toc-text">样式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%84%9A%E6%B3%A8"><span class="toc-number">1.4.</span> <span class="toc-text">脚注</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%95%E7%94%A8"><span class="toc-number">1.5.</span> <span class="toc-text">引用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5"><span class="toc-number">1.6.</span> <span class="toc-text">链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC"><span class="toc-number">1.7.</span> <span class="toc-text">表格</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8"><span class="toc-number">1.8.</span> <span class="toc-text">列表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">1.8.1.</span> <span class="toc-text">有序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">1.8.2.</span> <span class="toc-text">无序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#TODO-%E6%A0%87%E8%AE%B0"><span class="toc-number">1.8.3.</span> <span class="toc-text">TODO 标记</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81"><span class="toc-number">1.9.</span> <span class="toc-text">代码</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Go"><span class="toc-number">1.9.1.</span> <span class="toc-text">Go</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaScript"><span class="toc-number">1.9.2.</span> <span class="toc-text">JavaScript</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lua"><span class="toc-number">1.9.3.</span> <span class="toc-text">Lua</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="toc-number">1.10.</span> <span class="toc-text">数学公式</span></a></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#808000;"><link itemprop="mainEntityOfPage" href="https://myp0402.github.io/2020/12/04/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Ma Yuanpeng"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="mypの小窝"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">markdown语法（转载自AceMark）</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2020-12-04 09:29:11" itemprop="dateCreated datePublished" datetime="2020-12-04T09:29:11+08:00">2020-12-04</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2022-06-06 16:15:52" itemprop="dateModified" datetime="2022-06-06T16:15:52+08:00">2022-06-06</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">851</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">3m</span></span></span><div class="post-classify"><span class="post-tag"><a class="tag-item" href="/tags/markdown/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">markdown</span></a><a class="tag-item" href="/tags/Github/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">Github</span></a><a class="tag-item" href="/tags/%E5%8D%9A%E5%AE%A2/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博客</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h1 id="欢迎使用AceMark"><a href="#欢迎使用AceMark" class="headerlink" title="欢迎使用AceMark"></a>欢迎使用AceMark</h1><p>AceMark 致力于打造一款易用、专业的 Markdown 创作工具。</p>
+<h2 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown?"></a>什么是 Markdown?</h2><p>Markdown 是一种轻量级的标记语言。它允许人们使用易读易写的纯文本格式编写文档，并支持图片、图表、数学公式等，然后转换成有效的 HTML 文档。AceMark 采用 <a target="_blank" rel="noopener" href="https://github.github.com/gfm/">GitHub Flavored Markdown</a> 语法（简称 GFM），并支持一些扩展语法。下面我们来熟悉下 AceMark 的常用标记说明。 </p>
+<p>为了方便导航，我们在这里插入目录：</p>
+<p>[toc]</p>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>AceMark 最高支持六级标题，一级标题在行首使用一个<code>#</code>，二级标题使用两个<code>##</code>，以此类推。如下：</p>
+<pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre>
+<h2 id="样式"><a href="#样式" class="headerlink" title="样式"></a>样式</h2><ul>
+<li><code>**粗体**</code>用于表示<strong>粗体</strong></li>
+<li><code>*斜体*</code>用于表示<em>斜体</em></li>
+<li><code>~~删除线~~</code>用于表示<del>删除线</del></li>
+</ul>
+<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>我们可以在这里插入一个脚注 <a href="%E8%BF%99%E6%98%AF%E8%84%9A%E6%B3%A8%E5%86%85%E5%AE%B9%E3%80%82">^footnote</a>。</p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><pre><code>&gt; 这是一个引用
+</code></pre>
+<p>效果：</p>
+<blockquote>
+<p>这是一个引用</p>
+</blockquote>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><pre><code>[链接标题](http://www.acemark.net)
+</code></pre>
+<p>输出：<a target="_blank" rel="noopener" href="http://www.acemark.net/">链接标题</a></p>
+<p>如果想要显示一张网络图片，方式和普通链接类似，但需要在前面加一个<code>!</code>符号。</p>
+<pre><code>![图片标题](http://www.acemark.net/img/icon.jpg)
+</code></pre>
+<p><img src="http://www.acemark.net/img/icon.jpg" alt="图片标题" loading="lazy"></p>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>通过下面的标记，就可以输出一份表格</p>
+<pre><code>| 标题1 | 标题2 | 标题3 |
+|------|-------|------|
+| 内容1 | 内容2 | 内容3 |
+| 内容4 | 内容5 | 内容6 |
+</code></pre>
+<p>输出表格：</p>
+<table>
+<thead>
+<tr>
+<th>标题1</th>
+<th>标题2</th>
+<th>标题3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内容1</td>
+<td>内容2</td>
+<td>内容3</td>
+</tr>
+<tr>
+<td>内容4</td>
+<td>内容5</td>
+<td>内容6</td>
+</tr>
+</tbody></table>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><pre><code>1. 第一项
+2. 第二项
+</code></pre>
+<p>输出结果：</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p><code>+</code>、<code>*</code>、<code>-</code>都可以用来标识无序列表项。例如：</p>
+<pre><code>+ 项目1
+* 项目2
+- 项目3
+</code></pre>
+<p>输出结果：</p>
+<ul>
+<li>项目1</li>
+</ul>
+<ul>
+<li>项目2</li>
+</ul>
+<ul>
+<li>项目3</li>
+</ul>
+<h3 id="TODO-标记"><a href="#TODO-标记" class="headerlink" title="TODO 标记"></a>TODO 标记</h3><pre><code>- [ ] 未完成
+- [X] 已完成
+</code></pre>
+<p>输出结果：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 未完成</li>
+<li><input checked="" disabled="" type="checkbox"> 已完成</li>
+</ul>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>AceMark 支持几十种代码高亮。例如：</p>
+<h3 id="Go"><a href="#Go" class="headerlink" title="Go"></a>Go</h3><pre><code>```go
+func Fibonacci(n int) int &#123;
+    if n &lt;= 1 &#123;
+        return n
+    &#125;
+    return Fibonacci(n-1) + Fibonacci(n-2)
+&#125;
+```
+</code></pre>
+<p>输出：</p>
+<pre><code class="go">func Fibonacci(n int) int &#123;
+    if n &lt;= 1 &#123;
+        return n
+    &#125;
+    return Fibonacci(n-1) + Fibonacci(n-2)
+&#125;
+</code></pre>
+<h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h3><pre><code>```javascript
+function Fibonacci(num) &#123;
+    if (num &lt;= 1) return 1;
+    return Fibonacci(num - 1) + Fibonacci(num - 2);
+&#125;
+```
+</code></pre>
+<p>输出：</p>
+<pre><code class="javascript">function Fibonacci(num) &#123;
+    if (num &lt;= 1) return 1;
+    return Fibonacci(num - 1) + Fibonacci(num - 2);
+&#125;
+</code></pre>
+<h3 id="Lua"><a href="#Lua" class="headerlink" title="Lua"></a>Lua</h3><pre><code>```lua
+local function Fibonacci(n)
+    local function doFibonacci(n, ret1, ret2)
+        if (n &lt;= 1) then
+            return ret2
+        end
+        return doFibonacci(n - 1, ret2, ret1 + ret2)
+    end
+    return doFibonacci(n, 1, 1)
+end
+```
+</code></pre>
+<p>输出：</p>
+<pre><code class="lua">local function Fibonacci(n)
+    local function doFibonacci(n, ret1, ret2)
+        if (n &lt;= 1) then
+            return ret2
+        end
+        return doFibonacci(n - 1, ret2, ret1 + ret2)
+    end
+    return doFibonacci(n, 1, 1)
+end
+</code></pre>
+<h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><p>AceMark 支持 LaTeX 语法的数学公式。例如</p>
+<pre><code>$$
+f(x) = a x^2 + b x + c
+$$
+</code></pre>
+<p>会输出一个抛物线方程</p>
+<p>$$<br>f(x) &#x3D; a x^2 + b x + c<br>$$</p>
+<p>而下面这个表达式</p>
+<pre><code>$$
+F(\omega)=\int_&#123;-\infty&#125;^&#123;+\infty&#125; &#123;f(t)e^&#123;-i\omega t&#125;dt&#125;
+$$
+</code></pre>
+<p>会输出一个傅里叶变换积分方程</p>
+<p>$$<br>F(\omega)&#x3D;\int_{-\infty}^{+\infty} {f(t)e^{-i\omega t}dt}<br>$$</p>
+<p>要输出矩阵也很简单，只需要</p>
+<pre><code>$$
+\begin&#123;bmatrix&#125;
+1 &amp; x &amp; x^2 \\
+1 &amp; y &amp; y^2 \\
+1 &amp; z &amp; z^2 \\
+\end&#123;bmatrix&#125;
+$$
+</code></pre>
+<p>便可得到想要的效果</p>
+<p>$$<br>\begin{bmatrix}<br>1 &amp; x &amp; x^2 \<br>1 &amp; y &amp; y^2 \<br>1 &amp; z &amp; z^2 \<br>\end{bmatrix}<br>$$</p>
+<p>公式也可以显示在行内。例如 <code>$f(x)=kx+b$</code> 就会输出 $f(x)&#x3D;kx+b$，这是一个显示在行内的直线方程。</p>
+</div></section><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>Ma Yuanpeng</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://myp0402.github.io/2020/12/04/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="markdown语法（转载自AceMark）">https://myp0402.github.io/2020/12/04/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul><script>document.addEventListener('copy', function (event) {
+  const clipboardData = event.clipboardData || window.clipboardData;
+  if (!clipboardData) { return; }
+  const text = window.getSelection().toString();
+  if (text) {
+    event.preventDefault();
+    clipboardData.setData('text/plain', text + '\n\n本文作者：Ma Yuanpeng\n本文链接：https://myp0402.github.io/2020/12/04/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/\n版权声明：本博客所有文章除特别声明外，均默认采用 CC BY-NC-SA 4.0 许可协议。');
+  }
+});</script></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2022/05/31/hello-world/" rel="prev" title="Hello World"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">Hello World</span></a></div><div class="post-nav-item"></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>下方的评论有一定概率撞墙，所以评论挂了别找我，你需要魔法</span><br><span>或者你可以直接去myp0402/BlogComment的issues里说话</span><br></div><style>.utterances {
+  max-width: 100%;
+}</style><script src="https://utteranc.es/client.js" repo="myp0402/BlogComment" issue-term="title" label="Utterances💬" theme="github-light" crossorigin="anonymous" async></script></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://icp.gov.moe/?keyword=20222306" target="_blank">萌ICP备20222306号</a></div><div class="copyright"><span>&copy; 2022 </span><a class="with-love" id="animate" target="_blank" rel="noopener" href="https://twitter.com/xiaojunyi0402" title="被发现了！（小心撞墙"><span class="icon iconify" data-icon="logos:twitter"></span></a><span class="author"> Ma Yuanpeng</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v6.2.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.2</span></div><div class="live-time"><span>本博客已萌萌哒地运行</span><span id="display_live_time"></span><span class="moe-text">(●'◡'●)</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2022-05-12T00:00:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#808000" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script src="https://fastly.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js"></script><script src="/js/search/local-search.js" defer type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"><input class="search-input" id="local-search-input" type="text" placeholder="搜索..." value=""></div><div class="search-result-container"></div></div></body></html>

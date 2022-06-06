@@ -134,7 +134,7 @@ html.dark {
   --hty-secondary-text-color: #eee;
   --post-block-bg-color: #1b1f2e;
   --smc-link-color: #f3f300;
-  --yun-bg-image: url("https://raw.githubusercontent.com/myp0402/myp0402.github.io/main/images/aharen_bg.jpg");
+  --yun-bg-image: url("https://cdn.yunyoujun.cn/img/bg/galaxy.jpg");
   --banner-line-color: #fff;
   --banner-char-color: #fff;
   --banner-char-bg-color: rgba(0,0,0,0.5);
@@ -142,7 +142,7 @@ html.dark {
   --post-card-bg-color: rgba(27,31,46,0.9);
   --post-card-shadow: 0 1px 8px rgba(27,31,46,0.1);
   --sidebar-bg-color: rgba(27,31,46,0.95);
-  --sidebar-bg-image: url("https://github.com/myp0402/myp0402.github.io/blob/main/images/aharen_sdbg.jpg?raw=true");
+  --sidebar-bg-image: url("");
   --page-btn-bg-color: rgba(0,0,0,0.5);
   --page-btn-hover-bg-color: rgba(255,255,179,0.9);
   --page-btn-active-bg-color: #808000;
@@ -1811,7 +1811,7 @@ input {
   max-height: 10000px;
 }
 :root {
-  --sidebar-bg-image: url("https://github.com/myp0402/myp0402.github.io/blob/main/images/aharen_sdbg.jpg?raw=true");
+  --sidebar-bg-image: url("https://api.xhofe.top/ip/?line1=你好哇&line2=欢迎光临mypの小窝");
 }
 #menu-btn {
   display: none;
@@ -1864,7 +1864,7 @@ input {
   background-color: var(--sidebar-bg-color, #fff);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom 1rem centersss;
+  background-position: bottom 1rem center;
   text-align: center;
   z-index: 10;
   transition-property: all;
@@ -1936,8 +1936,8 @@ input {
 #site-overview-wrap {
   padding-top: 2rem;
 }
-.site-info.fix-top {
-  margin-top: -1.5rem;
+.site-info.mickey-mouse {
+  margin-top: -2.8rem;
 }
 .site-author-avatar {
   display: inline-block;
