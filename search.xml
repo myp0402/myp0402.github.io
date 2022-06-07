@@ -169,31 +169,53 @@ f(x) = a x^2 + b x + c
 $$
 </code></pre>
 <p>会输出一个抛物线方程</p>
-<p>$$<br>f(x) &#x3D; a x^2 + b x + c<br>$$</p>
+<p>$$ f(x) &#x3D; a x^2 + b x + c $$</p>
 <p>而下面这个表达式</p>
 <pre><code>$$
 F(\omega)=\int_&#123;-\infty&#125;^&#123;+\infty&#125; &#123;f(t)e^&#123;-i\omega t&#125;dt&#125;
 $$
 </code></pre>
 <p>会输出一个傅里叶变换积分方程</p>
-<p>$$<br>F(\omega)&#x3D;\int_{-\infty}^{+\infty} {f(t)e^{-i\omega t}dt}<br>$$</p>
+<p>$$ F(\omega)&#x3D;\int_{-\infty}^{+\infty} {f(t)e^{-i\omega t}dt} $$</p>
 <p>要输出矩阵也很简单，只需要</p>
-<pre><code>$$
-\begin&#123;bmatrix&#125;
-1 &amp; x &amp; x^2 \\
-1 &amp; y &amp; y^2 \\
-1 &amp; z &amp; z^2 \\
-\end&#123;bmatrix&#125;
-$$
+<pre><code>&lt;div&gt;
+    $$ A_&#123;m\times n&#125;=  
+    \begin&#123;bmatrix&#125;  
+    a_&#123;11&#125;&amp; a_&#123;12&#125;&amp; \cdots  &amp; a_&#123;1n&#125; \\  
+    a_&#123;21&#125;&amp; a_&#123;22&#125;&amp; \cdots  &amp; a_&#123;2n&#125; \\  
+    \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\  
+    a_&#123;m1&#125;&amp; a_&#123;m2&#125;&amp; \cdots  &amp; a_&#123;mn&#125;  
+    \end&#123;bmatrix&#125;  
+    =\left [ a_&#123;ij&#125;\right ] $$
+&lt;/div&gt;
 </code></pre>
 <p>便可得到想要的效果</p>
-<p>$$<br>\begin{bmatrix}<br>1 &amp; x &amp; x^2 \<br>1 &amp; y &amp; y^2 \<br>1 &amp; z &amp; z^2 \<br>\end{bmatrix}<br>$$</p>
+<div>
+    $$ A_{m\times n}=  
+    \begin{bmatrix}  
+    a_{11}& a_{12}& \cdots  & a_{1n} \\  
+    a_{21}& a_{22}& \cdots  & a_{2n} \\  
+    \vdots & \vdots & \ddots & \vdots \\  
+    a_{m1}& a_{m2}& \cdots  & a_{mn}  
+    \end{bmatrix}  
+    =\left [ a_{ij}\right ] $$
+</div>
+
 <p>公式也可以显示在行内。例如 <code>$f(x)=kx+b$</code> 就会输出 $f(x)&#x3D;kx+b$，这是一个显示在行内的直线方程。</p>
 ]]></content>
       <tags>
         <tag>markdown</tag>
         <tag>Github</tag>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装Python环境</title>
+    <url>/2022/05/31/%E5%AE%89%E8%A3%85Python%E7%8E%AF%E5%A2%83/</url>
+    <content><![CDATA[<h1 id="这是一个示例！"><a href="#这是一个示例！" class="headerlink" title="这是一个示例！"></a>这是一个示例！</h1>]]></content>
+      <tags>
+        <tag>教程</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -210,15 +232,6 @@ $$
         <tag>Github</tag>
         <tag>博客</tag>
         <tag>GFW</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装Python环境</title>
-    <url>/2022/05/31/%E5%AE%89%E8%A3%85Python%E7%8E%AF%E5%A2%83/</url>
-    <content><![CDATA[<h1 id="这是一个示例！"><a href="#这是一个示例！" class="headerlink" title="这是一个示例！"></a>这是一个示例！</h1>]]></content>
-      <tags>
-        <tag>教程</tag>
-        <tag>Python</tag>
       </tags>
   </entry>
 </search>
