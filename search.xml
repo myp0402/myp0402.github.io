@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/05/31/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>markdown语法（转载自AceMark）</title>
     <url>/2020/12/04/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="欢迎使用AceMark"><a href="#欢迎使用AceMark" class="headerlink" title="欢迎使用AceMark"></a>欢迎使用AceMark</h1><p>AceMark 致力于打造一款易用、专业的 Markdown 创作工具。</p>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="欢迎使用AceMark"><a href="#欢迎使用AceMark" class="headerlink" title="欢迎使用AceMark"></a>欢迎使用AceMark</h1><p>AceMark 致力于打造一款易用、专业的 Markdown 创作工具。</p>
 <h2 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown?"></a>什么是 Markdown?</h2><p>Markdown 是一种轻量级的标记语言。它允许人们使用易读易写的纯文本格式编写文档，并支持图片、图表、数学公式等，然后转换成有效的 HTML 文档。AceMark 采用 <a href="https://github.github.com/gfm/">GitHub Flavored Markdown</a> 语法（简称 GFM），并支持一些扩展语法。下面我们来熟悉下 AceMark 的常用标记说明。 </p>
 <p>为了方便导航，我们在这里插入目录：</p>
 <p>[toc]</p>
@@ -38,7 +20,7 @@
 <li><code>*斜体*</code>用于表示<em>斜体</em></li>
 <li><code>~~删除线~~</code>用于表示<del>删除线</del></li>
 </ul>
-<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>我们可以在这里插入一个脚注 <a href="%E8%BF%99%E6%98%AF%E8%84%9A%E6%B3%A8%E5%86%85%E5%AE%B9%E3%80%82">^footnote</a>。</p>
+<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>我们可以在这里插入一个脚注 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="这是脚注内容。">[1]</span></a></sup>。</p>
 <h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><pre><code>&gt; 这是一个引用
 </code></pre>
 <p>效果：</p>
@@ -202,7 +184,7 @@ $$
 </div>
 
 <p>公式也可以显示在行内。例如 <code>$f(x)=kx+b$</code> 就会输出 $f(x)&#x3D;kx+b$，这是一个显示在行内的直线方程。</p>
-]]></content>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这是脚注内容。<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
       <tags>
         <tag>markdown</tag>
         <tag>Github</tag>
@@ -210,18 +192,27 @@ $$
       </tags>
   </entry>
   <entry>
-    <title>安装Python环境</title>
-    <url>/2022/05/31/%E5%AE%89%E8%A3%85Python%E7%8E%AF%E5%A2%83/</url>
-    <content><![CDATA[<h1 id="这是一个示例！"><a href="#这是一个示例！" class="headerlink" title="这是一个示例！"></a>这是一个示例！</h1>]]></content>
-      <tags>
-        <tag>教程</tag>
-        <tag>Python</tag>
-      </tags>
+    <title>Hello World</title>
+    <url>/2022/05/31/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>如果博客异常，请阅读我</title>
     <url>/2022/06/02/%E5%A6%82%E6%9E%9C%E5%8D%9A%E5%AE%A2%E5%BC%82%E5%B8%B8%EF%BC%8C%E8%AF%B7%E9%98%85%E8%AF%BB%E6%88%91/</url>
-    <content><![CDATA[<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="Q1-博客的背景为什么是白的？"><a href="#Q1-博客的背景为什么是白的？" class="headerlink" title="Q1: 博客的背景为什么是白的？"></a>Q1: 博客的背景为什么是白的？</h3><p>A1: 本博客图片由github托管，而直链地址raw.githubusercontent.com被墙了，所以你加载不出来</p>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="Q1-博客的背景为什么是白的？"><a href="#Q1-博客的背景为什么是白的？" class="headerlink" title="Q1: 博客的背景为什么是白的？"></a>Q1: 博客的背景为什么是白的？</h3><p>A1: 本博客图片由github托管，而直链地址raw.githubusercontent.com被墙了，所以你加载不出来</p>
 <h3 id="Q2-评论怎么使用？"><a href="#Q2-评论怎么使用？" class="headerlink" title="Q2: 评论怎么使用？"></a>Q2: 评论怎么使用？</h3><p>A2: 本博客使用utteranc作为评论系统，评论在文章的最下方，点击“Sign in with Github”，随后按流程登陆GitHub即可评论</p>
 <h3 id="Q3-点完“Sign-in-with-Github”为什么无法访问？"><a href="#Q3-点完“Sign-in-with-Github”为什么无法访问？" class="headerlink" title="Q3: 点完“Sign in with Github”为什么无法访问？"></a>Q3: 点完“Sign in with Github”为什么无法访问？</h3><p>A3: 部分地区的Github会不定时无法访问，撞大运吧</p>
 <h3 id="Q4-有没有彻底解决Q1和Q3的方法？"><a href="#Q4-有没有彻底解决Q1和Q3的方法？" class="headerlink" title="Q4: 有没有彻底解决Q1和Q3的方法？"></a>Q4: 有没有彻底解决Q1和Q3的方法？</h3><p>A4: 我不能教你，自己动手丰衣足食</p>
@@ -232,6 +223,15 @@ $$
         <tag>Github</tag>
         <tag>博客</tag>
         <tag>GFW</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装Python环境</title>
+    <url>/2022/05/31/%E5%AE%89%E8%A3%85Python%E7%8E%AF%E5%A2%83/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="这是一个示例！"><a href="#这是一个示例！" class="headerlink" title="这是一个示例！"></a>这是一个示例！</h1>]]></content>
+      <tags>
+        <tag>教程</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
 </search>
