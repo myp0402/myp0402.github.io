@@ -41,6 +41,7 @@ html.dark {
   --hty-link-color: #0078e7;
   --hty-gray-color: #999;
   --hty-yellow-color: #ff8718;
+  --blockquote-border-left-color: var(--smc-border-color);
 }
 .primary {
   color: #4d4d00;
@@ -353,6 +354,44 @@ input {
   align-items: center;
   height: 100vh;
 }
+#banner .char {
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-size: var(--banner-char-size, 1rem);
+  font-weight: 900;
+  background-color: var(--banner-char-bg-color);
+  line-height: 1;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+}
+#banner .char:hover {
+  color: var(--banner-char-hover-color);
+  background-color: var(--banner-char-color);
+}
+#banner .char-left,
+#banner .char-right {
+  display: flex;
+  color: var(--banner-char-color);
+  opacity: 0;
+}
+#banner .char-left {
+  border-left: 1px solid var(--banner-line-color);
+  border-right: 0px solid rgba(128,128,0,0.1);
+  border-right-width: 0px;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+#banner .char-right {
+  border-left: 0px solid rgba(128,128,0,0.1);
+  border-right: 1px solid var(--banner-line-color);
+  border-left-width: 0px;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
 .banner-char-container {
   display: flex;
   flex-direction: column;
@@ -371,44 +410,6 @@ input {
 .vertical-line-bottom {
   position: absolute;
   bottom: 0;
-}
-.char {
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
-  font-size: var(--banner-char-size, 1rem);
-  font-weight: 900;
-  background-color: var(--banner-char-bg-color);
-  line-height: 1;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-delay: 0s;
-}
-.char:hover {
-  color: var(--banner-char-hover-color);
-  background-color: var(--banner-char-color);
-}
-.char-left,
-.char-right {
-  display: flex;
-  color: var(--banner-char-color);
-  opacity: 0;
-}
-.char-left {
-  border-left: 1px solid var(--banner-line-color);
-  border-right: 0px solid rgba(128,128,0,0.1);
-  border-right-width: 0px;
-  animation-duration: 0.4s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-}
-.char-right {
-  border-left: 0px solid rgba(128,128,0,0.1);
-  border-right: 1px solid var(--banner-line-color);
-  border-left-width: 0px;
-  animation-duration: 0.4s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
 }
 .cloud {
   display: flex;
@@ -1548,6 +1549,7 @@ input {
   color: var(--hty-text-color);
   font-weight: 400;
   font-family: 'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif;
+  padding: 1rem 0;
 }
 .markdown-body code,
 .markdown-body pre {
@@ -1555,7 +1557,7 @@ input {
 }
 .markdown-body blockquote {
   padding: 0.6rem 1rem;
-  border-left: 4px solid var(--blockquote-border-left-color);
+  border-left: 4px solid var(--blockquote-border-left-color, --smc-border-color);
   background-color: var(--blockquote-bg-color, rgba(128,128,0,0.05));
 }
 .markdown-body blockquote p {
@@ -1567,6 +1569,7 @@ input {
 }
 .markdown-body iframe {
   border: none;
+  width: 100%;
 }
 .post-nav {
   display: flex;
@@ -2176,14 +2179,8 @@ input {
 #github-issues {
   margin: 1rem;
 }
-.v[data-class=v] p {
-  color: var(--hty-text-color) !important;
-}
-.v[data-class=v] p code {
-  color: #000;
-}
 #say {
-  color: #f0f0f0;
+  color: var(--hty-text-color);
   display: block;
   text-align: center;
   font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
@@ -2197,6 +2194,11 @@ input {
 }
 #say #say-from {
   display: block;
+}
+iframe.bilibili-video {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16/9;
 }
 .heimu {
   background-color: var(--hty-text-color);
@@ -2220,6 +2222,17 @@ input {
 }
 .flex-col {
   flex-direction: column;
+}
+.justfiy-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .w-full {
   width: 100%;
