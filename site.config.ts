@@ -18,7 +18,7 @@ export default defineSiteConfig({
   lastUpdated: false,
   license: {
     enabled: true,
-    type: 'by-nc-sa',
+    type: 'by-nc-nd',
   },
   social: [
     {
