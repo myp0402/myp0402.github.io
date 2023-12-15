@@ -1,5 +1,6 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
+import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 // add icons what you will need
 const safelist = [
@@ -48,6 +49,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         icp: '萌ICP备20222306号',
       },
     },
+
     bg_image: {
       enable: true,
       url: '/images/aharen_bg.jpg',
@@ -56,4 +58,10 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
+
+  addons: [
+    addonTwikoo({
+      envId: 'https://myp0402-twikoo.hf.space',
+    }),
+  ],
 })

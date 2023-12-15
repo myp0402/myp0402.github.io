@@ -1,4 +1,5 @@
 import { defineSiteConfig } from 'valaxy'
+import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 export default defineSiteConfig({
   mode: "light",
