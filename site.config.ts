@@ -1,5 +1,4 @@
 import { defineSiteConfig } from 'valaxy'
-import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 export default defineSiteConfig({
   mode: "light",
@@ -45,6 +44,12 @@ export default defineSiteConfig({
       link: 'mailto:mayuanpeng0402@126.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
+    },
+    {
+      name: '异次元之旅',
+      link: 'https://travel.moe/go.html?travel=on',
+      icon: 'i-ri-planet-line',
+      color: '#E77C8E',
     },
   ],
 
