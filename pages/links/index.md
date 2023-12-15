@@ -1,9 +1,8 @@
 ---
-title: 我的小伙伴们
-keywords: 链接
-description: 云游的小伙伴们
-links: https://www.yunyoujun.cn/friends/links.json
-random: true
+title: 留言板
+nav: false
+toc: false
 ---
 
-<YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+评论系统belike：
+$$i\hbar\frac{\partial \psi}{\partial t} = \frac{-\hbar^2}{2m} \left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2} \right) \psi + V \psi$$

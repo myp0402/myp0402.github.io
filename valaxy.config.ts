@@ -28,8 +28,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '我的小伙伴们',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
+        icon: 'i-iconamoon-comment-dots',
+        color: '#4783ff',
       },
     ],
 
