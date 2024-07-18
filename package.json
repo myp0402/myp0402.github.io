@@ -12,11 +12,11 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.15.14",
+    "valaxy": "0.19.2",
     "valaxy-addon-twikoo": "^0.0.3",
-    "valaxy-theme-yun": "0.15.14"
+    "valaxy-theme-yun": "0.19.2"
   },
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.5.3"
   }
 }
