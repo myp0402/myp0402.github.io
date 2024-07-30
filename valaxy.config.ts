@@ -1,6 +1,7 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
+import { addonBangumi } from 'valaxy-addon-bangumi'
 
 // add icons what you will need
 const safelist = [
@@ -62,6 +63,11 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonTwikoo({
       envId: 'https://myp0402-twikoo.hf.space',
+    }),
+    addonBangumi({
+      api: 'https://yi_xiao_jiu-bangumi.web.val.run',
+      bilibiliUid: '452052550',
+      bgmUid : '900675'
     }),
   ],
 })

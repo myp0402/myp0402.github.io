@@ -46,6 +46,12 @@ export default defineSiteConfig({
       color: '#8E71C1',
     },
     {
+      name: '追番列表',
+      link: '/bangumi',
+      icon: 'i-material-symbols-bookmark-heart-outline',
+      color: '#FF8EB3',
+    },
+    {
       name: '异次元之旅',
       link: 'https://travel.moe/go.html?travel=on',
       icon: 'i-ri-planet-line',
