@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myp0402.github.io/sitemap.xml

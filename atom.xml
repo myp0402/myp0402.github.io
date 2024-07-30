@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://myp0402.github.io/</id>
+    <title>mypの小窝</title>
+    <updated>2024-07-30T13:08:00.817Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Ma Yuanpeng</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://myp0402.github.io/"/>
+    <link rel="self" href="https://myp0402.github.io/atom.xml"/>
+    <subtitle>一只高中生的博客</subtitle>
+    <logo>https://myp0402.github.io/images/avatar.jpg</logo>
+    <icon>https://myp0402.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-ND 4.0 2024 © Ma Yuanpeng</rights>
+    <entry>
+        <title type="html"><![CDATA[动态规划]]></title>
+        <id>https://myp0402.github.io/posts/动态规划</id>
+        <link href="https://myp0402.github.io/posts/动态规划"/>
+        <updated>2024-07-22T20:14:33.000Z</updated>
+        <content type="html"><![CDATA[<h2>动态规划（DP）</h2>
+<h3>背包DP</h3>
+<h4>01背包</h4>
+<p>有$N$件物品 容量为$M$的背包</p>
+<p>状态表示：$f_{i,j}$ 选前$i$个物品 容量剩余$j$</p>
+<!--属性：$\max <br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-22T20:14:33.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最短路]]></title>
+        <id>https://myp0402.github.io/posts/最短路</id>
+        <link href="https://myp0402.github.io/posts/最短路"/>
+        <updated>2024-07-18T22:51:40.000Z</updated>
+        <content type="html"><![CDATA[<h2>Floyd算法</h2>
+<pre><code class="language-cpp">int main()
+{
+        for (int i = 1; i &lt;= n; i++) {
+                for (int j =</code></pre>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-18T22:51:40.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[图论中的DFS和BFS及其应用]]></title>
+        <id>https://myp0402.github.io/posts/图论中的DFS和BFS及其应用</id>
+        <link href="https://myp0402.github.io/posts/图论中的DFS和BFS及其应用"/>
+        <updated>2024-07-18T15:48:02.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>约定 本文中$n$为节点数量 $m$为边的数量</p>
+</blockquote>
+<h2>图的存储</h2>
+<p>树与图的存储方式相同 有邻接矩阵和邻接表两种方式</p>
+<p>注：$G$是一张有$n-1$条边的图 $\Leftrightarrow$</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-18T15:48:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决pnpm找不到GLOBAL_BIN_DIR问题]]></title>
+        <id>https://myp0402.github.io/posts/解决pnpm找不到GLOBAL_BIN_DIR问题</id>
+        <link href="https://myp0402.github.io/posts/解决pnpm找不到GLOBAL_BIN_DIR问题"/>
+        <updated>2024-07-18T15:39:16.000Z</updated>
+        <content type="html"><![CDATA[<p>时隔半年 又来更新博客</p>
+<p>然而 Valaxy 命令找不到了 遂直接重装</p>
+<pre><code class="language-bash">sudo pnpm i -g valaxy
+</code></pre>
+<p>不出意外 直接报错</p>
+<pre><code class="language-bash"> ERR_PNP</code></pre>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-18T15:39:16.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OI备忘]]></title>
+        <id>https://myp0402.github.io/posts/OI备忘</id>
+        <link href="https://myp0402.github.io/posts/OI备忘"/>
+        <updated>2024-07-18T15:13:14.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>关闭同步流后不能 <code>scanf</code> <code>printf</code> 但可以<code>puts</code></li>
+<li>不是全局变量记得初始化</li>
+<li>三目运算符使用 <code>cout</code> 输出时 要加最外层括号</li>
+</ol>
+<p>例：</p>
+<pre><code class="language-cpp">cout</code></pre>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-07-18T15:13:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客复活记]]></title>
+        <id>https://myp0402.github.io/posts/博客复活记</id>
+        <link href="https://myp0402.github.io/posts/博客复活记"/>
+        <updated>2023-12-15T13:09:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>死掉了快一年的博客堂堂复活 记录一下折腾的过程</p>
+<p>其实本来在今年4月份的时候想复活一下 不过拖了下来</p>
+<h1>复活 Node.js</h1>
+<p>由于我忘记了我的 <code>Node.js</code> 是用</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-12-15T13:09:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记一次曲折的archLinux虚拟机安装过程]]></title>
+        <id>https://myp0402.github.io/posts/记一次曲折的archLinux虚拟机安装过程</id>
+        <link href="https://myp0402.github.io/posts/记一次曲折的archLinux虚拟机安装过程"/>
+        <updated>2022-06-15T14:33:31.000Z</updated>
+        <content type="html"><![CDATA[<p>之前一直用Parallels Desktop安装的Ubuntu，但是作为一个arch党，这很难受，但是在百度上搜到的结果嘛...</p>
+<p>![image-20220615143848598](https:</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-06-15T14:33:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈IRC历史和使用]]></title>
+        <id>https://myp0402.github.io/posts/浅谈IRC</id>
+        <link href="https://myp0402.github.io/posts/浅谈IRC"/>
+        <updated>2022-06-07T15:15:04.000Z</updated>
+        <content type="html"><![CDATA[<h1>浅谈IRC历史和使用</h1>
+<p>*特别声明：本文章使用CC BY-SA 3.0条款，请勿参考其他文章的CC BY-NC-SA 4.0条款！</p>
+<blockquote>
+<p>题记：目前像微信、QQ等等聊天软件充斥着互联网聊天环境，</p>
+</blockquote>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-06-07T15:15:04.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>https://myp0402.github.io/posts/hello-world</id>
+        <link href="https://myp0402.github.io/posts/hello-world"/>
+        <updated>2022-05-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check [documentation](<a href="https://hex">https://hex</a></p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-05-31T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://myp0402.github.io/posts/hello-valaxy</id>
+        <link href="https://myp0402.github.io/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown语法]]></title>
+        <id>https://myp0402.github.io/posts/使用教程</id>
+        <link href="https://myp0402.github.io/posts/使用教程"/>
+        <updated>2020-12-04T09:29:11.000Z</updated>
+        <content type="html"><![CDATA[<h2>什么是 Markdown?</h2>
+<p>Markdown 是一种轻量级的标记语言。它允许人们使用易读易写的纯文本格式编写文档，并支持图片、图表、数学公式等，然后转换成有效的 HTML 文档。</p>
+<p>为了方</p>
+<br/><p>访问 <a href="" target="_blank"></a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Ma Yuanpeng</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2020-12-04T09:29:11.000Z</published>
+    </entry>
+</feed>
