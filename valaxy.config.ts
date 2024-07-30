@@ -29,7 +29,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '我的小伙伴们',
         url: '/links/',
-        icon: 'i-iconamoon-comment-dots',
+        icon: 'i-iconamoon:comment-dots',
         color: '#4783ff',
       },
     ],
@@ -38,7 +38,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2022,
       icon: {
         enable: true,
-        name: 'i-mdi-github',
+        name: 'i-mdi:github',
         animated: false,
         color: '#0078E7',
         url: 'https://github.com/myp0402',
