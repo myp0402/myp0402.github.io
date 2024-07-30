@@ -6,6 +6,7 @@ export default defineSiteConfig({
   title: 'mypの小窝',
   subtitle: '上帝保佑emoji正常显示',
   description: '一只高中生的博客',
+  favicon: '/images/avatar.jpg',
   author: {
     name: 'Ma Yuanpeng',
     avatar: '/images/avatar.jpg',
@@ -48,7 +49,7 @@ export default defineSiteConfig({
     {
       name: '追番列表',
       link: '/bangumi',
-      icon: 'i-material-symbols-bookmark-heart-outline',
+      icon: 'i-material-symbols:bookmark-heart-outline',
       color: '#FF8EB3',
     },
     {

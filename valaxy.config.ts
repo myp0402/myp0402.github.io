@@ -66,6 +66,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonBangumi({
       api: 'https://yi_xiao_jiu-bangumi.web.val.run',
+      bilibiliEnabled: false,
       bilibiliUid: '452052550',
       bgmUid : '900675'
     }),
